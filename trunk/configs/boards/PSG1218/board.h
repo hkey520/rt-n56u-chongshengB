@@ -8,8 +8,8 @@
 #define BOARD_MODEL_URL		"http://www.phicomm.com/"
 #define BOARD_BOOT_TIME		25
 #define BOARD_FLASH_TIME	120
-#undef BOARD_GPIO_BTN_RESET
-#define BOARD_GPIO_BTN_WPS	1
+#define BOARD_GPIO_BTN_RESET	26
+#define BOARD_GPIO_BTN_WPS	2
 #undef  BOARD_GPIO_BTN_WLTOG
 #undef BOARD_GPIO_LED_ALL
 #define BOARD_GPIO_LED_WIFI	72
