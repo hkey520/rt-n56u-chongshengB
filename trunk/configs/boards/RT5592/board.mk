@@ -3,5 +3,5 @@
 ##################################################################
 # NEWIFI-MINI # Lenovo NEWIFI-MINI # MT7620  #
 ##################################################################
-CFLAGS += -DBOARD_NEWIFIMINI
+CFLAGS += -DBOARD_RT5592
 BOARD_NUM_USB_PORTS=1
