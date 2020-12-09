@@ -1,14 +1,14 @@
 /* Lenovo NEWIFI-MINI */
 
-#define BOARD_PID		"NEWIFI-MINI"
-#define BOARD_NAME		"NEWIFI-MINI"
-#define BOARD_DESC		"NEWIFI-MINI Wireless Router"
+#define BOARD_PID		"RT5592"
+#define BOARD_NAME		"RT5592"
+#define BOARD_DESC		"RT5592 Wireless Router"
 #define BOARD_VENDOR_NAME	"Lenovo(Beijing) Limited"
 #define BOARD_VENDOR_URL	"http://www.newifi.com/"
 #define BOARD_MODEL_URL		"http://www.newifi.com/product_newifi_mini.shtml"
 #define BOARD_BOOT_TIME		25
 #define BOARD_FLASH_TIME	120
-#undef BOARD_GPIO_BTN_RESET
+#define BOARD_GPIO_BTN_RESET	26
 #define BOARD_GPIO_BTN_WPS	11
 #undef  BOARD_GPIO_BTN_WLTOG
 #undef BOARD_GPIO_LED_ALL
