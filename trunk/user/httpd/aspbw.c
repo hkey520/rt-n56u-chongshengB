@@ -245,7 +245,7 @@ void char_to_ascii(char *output, uint8_t *input)
 	input_len = strlen(input);
 
 	if (is_valid_hex_string(input)) {
-		for ( i=2; i<input_len; i+=2) {
+		for ( i=0; i<input_len; i+=2) {
 			sprintf(tmp, "%%%c%c", input[i], input[i+1]);
 			strcpy(ptr, tmp);
 			ptr+=3;
