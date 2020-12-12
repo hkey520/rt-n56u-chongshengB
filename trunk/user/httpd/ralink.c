@@ -1369,7 +1369,7 @@ print_radio_status(webs_t wp, int is_aband)
 int
 ej_wl_status_5g(int eid, webs_t wp, int argc, char **argv)
 {
-	return print_radio_status(wp, 1);
+	return print_radio_status(wp, 0);
 }
 #endif
 
